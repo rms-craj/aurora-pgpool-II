@@ -1,5 +1,5 @@
 FROM alpine:latest
-LABEL maintainer="Mathew Moon <me@mathewmoon.net>"
+LABEL maintainer="Chetan Raj <chetan.raj@rms.com>"
 
 COPY ./pgpool.conf /etc/pgpool.conf
 COPY ./pool_hba.conf /etc/pool_hba.conf
